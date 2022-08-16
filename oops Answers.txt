@@ -1,0 +1,31 @@
+**oops=========>object oreinted programming language
+**polymorphism=====>Multipleform of implementation..
+                    Types,
+                       >method overloading(same class,same method)
+                       >method overriding(diffrent class,same method)
+**interface===>planning & desingn & unimplementation method..(public & default modifiers using)
+               eg..in selenium[getTitle(),driver.quit()driver.close()]
+               eg..in java[mechanism to achieve abstraction]
+**abstract class=====> It is a restricted class that cannot be used to create objects..&
+                       it can be used in abstract class only
+                    eg..abstract void printStatus();
+                    eg..abstract class A{}  
+**Multiple inheritance & Multilevel inheritance===>where a class can inherit from more than one classes is known as
+                                                   multiple inheritance..
+                                                   Multilevel Inheritance==>A class can also be derived from one class,
+                                                   which is already derived from another class.
+*Multiple inheritance==>Is not possible in java..
+*keyword For Inheritance==>The keyword used for inheritance is extends.
+* keyword to connect interface and class====>  To access the interface methods, the interface must be "implemented" by another class with the implements keyword..
+*difference between class and interface===>
+Class--	                                                              Interface---
+//A class describes the attributes and behaviors of an object.	*An interface contains behaviors that a class implements.
+//A class may contain abstract methods, concrete methods.	       *An interface contains only abstract methods.
+//Members of a class can be public, private, protected or default.	*All the members of the interface are public by default.
+=====>what is difference between class and abstract class?
+//  An abstract class is declared using abstract modifier.	               ==> A concrete class is not declared using abstract modifier.
+//An abstract class cannot be directly instantiated using the new keyword. ==>	A concrete class can be directly instantiated using the new keyword.
+//An abstract class may or may not contain abstract methods.            ==> A concrete class cannot contain an abstract method.
+
+
+
