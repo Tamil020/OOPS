@@ -1,0 +1,36 @@
+====>the main method in java?
+***Without main method  we can't run a program...and the Syntax is 'PUBLIC STATIC VOID MAIN(STRING[] ARGS)'{
+
+===> the different  Control flow Statements available in java?
+**For Loop
+** While Loop
+**If statement
+**If-Else Statement.
+
+===>the Difference betweeen break and continue statements?
+***Break will stop at current// whereas Continues to end.
+
+====> Array? How will you declare an array in java?
+***Collection of similar data in the same data types.eg a=60,b=80/a=[60,80]
+
+===> will you get ArrayIndexOutOfBoundsException?
+***** At runtime.
+
+===>Define the Syntax to create an object for a class.
+What are the naming conventions to be followed while creating a class, 
+method and a variable.Explain with examoles?
+**Syntax for create an object is Classname objectname= new constructor();
+*** A class should being pascalnotation, whereas methods and variable have camelnotation.
+
+===> Variable?How will you declare a variables in java?
+***Variable are two types.
+  1. Local variable:-Within the class & outside the main method.
+  2. Global variable:-In the class & before main method.
+===> String in java? Is it a Data Type?
+***Sequence of character is called string. It's a non-primitive data type & it is immutable.
+===>the different ways to create the String Object in java?
+**String Littertal and Using new keyword.
+
+===>the Difference between .Equals and ==?
+***".Equals"- check the content. 
+ *** "=="- checks the memory address.
