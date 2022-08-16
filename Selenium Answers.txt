@@ -1,0 +1,39 @@
+===>what is Selenium & its components ?Explain Selenium WebDriver?
+It is a tool that helps you to automate cross-browser testing
+ for a web-based application...its components are
+*Selenium WebDriver
+*Selenium IDE 
+*Selenium Grid
+selenium web driver
+**it is a web framework that helps you execute cross-browser tests; it uses browser automation APIs provided by browser vendors such as Firefox, Chrome, Safari, Microsoft Internet Explorer, Microsoft Edge, Opera, etc., to interact with the browser and simulate user actions. It supports different programming languages and allows you
+to write the test scripts in your choice of language. 
+===> how does selenium communicate with the web browser?
+   communicate between server and client (browser), selenium web driver uses JSON.
+===>locators available  to find an element using Selenium?
+     *id
+     *name
+     *class
+     *link text
+     *partial link text
+     *tag name
+     *css selector
+     *xpath
+===>ID is preferable than X-Path?
+    Because id is the unique identifier for the element and it does not change.
+ ===>How to select value in dropdown?
+    * By using the value property
+     * By using selectedIndex property
+=====>difference between Absolute Path and Relative Path?
+*Absolute Xpath: It uses Complete path from the Root Element to the desire element.
+
+*Relative Xpath: You can simply start by referencing the element you want and go from there.
+===>if the given check box is checked or not ??
+   
+     *Use Selected() method over the checkbox element.
+====>Difference between System.setProperty and WebDriverManager?
+*System .set property is manual way/ Webdrivermanager is automated way.
+===>syntax for preceding and following x-paths.
+***//tagName[@attribute='attribute vale']/parent::p
+
+===>to get an attribute value using Selenium WebDriver?
+*** getAttrribute() method is used.
